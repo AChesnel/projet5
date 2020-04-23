@@ -32,6 +32,7 @@ function majFenetre(name, adress, phone, lundi, mardi, mercredi, jeudi, vendredi
 	document.getElementById('bar-dimanche').innerHTML = dimanche;
 	document.getElementById('bar-likes').innerHTML = likes;
 	$('#bloc-bar-infos').removeClass();
+	$('#footer').removeClass('footer-absolute');
 	comments.forEach(afficherCommentaires);
 }
 

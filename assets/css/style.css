@@ -37,6 +37,18 @@
 	flex-direction: column;
 }
 
+#responsive-username {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: -10px;
+}
+
+.fa-bars {
+		cursor: pointer;
+		margin-left: -10%;
+	}
+
 .responsive-level {
 	background-color: black;
 	width: 100%;
@@ -275,15 +287,35 @@
 	margin-bottom: 10px;
 }
 
+footer {
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	background-color: grey;
+	line-height: 50px;
+	color: white;
+	margin-top: 8px;
+}
+
+.footer-absolute {
+	position: absolute;
+	bottom: 0;
+}
+
+ #mentionsLegales {
+ 	cursor: pointer;
+ }
+
+ #retour-au-site {
+ 	cursor: pointer;
+ }
+
  @media screen and (max-width: 649px) {
  	 #map-canvas {
 	 	width: 100%;
 	    height: 600px;
 	}
-	.fa-bars {
-		visibility: visible;
-		cursor: pointer;
-	}
+
 	#header nav {
 		display: none;
 	}
@@ -291,27 +323,10 @@
 	#pop-up-background-login {
 		height: 15%;
 	}
-
-	#responsive-username {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		margin-top: -10px;
-	}
 }
 
  @media screen and (max-width: 1000px) {
  	#pop-up-background-login {
 		height: 18%;
 	}
- }
-
- @media screen and (min-width: 650px) {
- 	.fa-bars {
- 		display: none !important;
- 	}
-
- 	#menu-responsive {
- 		display: none;
- 	}
  }

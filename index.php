@@ -14,7 +14,7 @@
 
 <body onload="logCheck();">
 	<header id="header">
-		<i class="fas fa-bars"></i> <!-- media queries, petit écran only -->
+		<i class="fas fa-bars"></i>
 		<div id="menu-responsive" class="hidden">
 			<div id="logged-responsive" class="hidden">
 				Connecté en tant que : <br /><span id="responsive-username"></span>
@@ -35,22 +35,13 @@
 		</div>
 		<div id="logoHeader"><a href="http://localhost/projet5/index.php">Accueil</a></div>
 		<div id="logoPrincipal"><a href="http://localhost/projet5/index.php">Logo principal</a></div>
-		<nav>
-			<div id="login" class="displayed">
-				<button type="button" class="clicConnexion fonctionConnexion">Connexion</button>
-			</div>
-			<div id="logged" class="hidden">
-				<span id="headerIdentifiant"></span>
-				<button type="button" class="bouton-deconnexion deconnexion fonctionDeconnexion">Deconnexion</button>
-			</div>
-			<button type="button" class="inscription fonctionInscription">Créer un compte</button>
-		</nav>
 		<div id="flash-box" class="hidden">
 			<span id="flash-box-message"></span>
 		</div>
 		<div id="pop-up-background" class="hidden"></div>
 	</header>
 
+	<div id="blocMentionsLegales"></div>
 	<div id="blocSite">
 		<div id="pop-up-background-login" class="hidden">
 			<span id="flash-message-login" class="hidden"></span>
@@ -120,6 +111,11 @@
 
 </div>
 
+<footer id="footer" class="footer-absolute">
+	<span id="mentionsLegales">Mentions légales</span>
+	<span id="retour-au-site" class="hidden">Retour au site</span>
+</footer>
+
 
 <!--<script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>-->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeIAygyVPkyXzqDKqEMHhUI_GDbq1N5hc&callback=initMap"></script>
@@ -127,6 +123,7 @@
 <script src="assets/js/login.js"></script>
 <script src="assets/js/comments.js"></script>
 <script src="assets/js/account.js"></script>
+<script src="assets/js/mentionsLegales.js"></script>
 
 </body>
 </html>

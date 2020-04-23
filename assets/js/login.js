@@ -61,6 +61,8 @@ function logCheck() {
 		$('#fenetre-commentaire').removeClass();
 		$('#responsive-username').text(localStorage.utilisateur);
 		$('#responsive-login').addClass('hidden');
+		$('#logged-responsive').removeClass('hidden');
+		$('#responsive-deconnexion').removeClass('hidden');
 		$('#responsive-newAccount').addClass('hidden');
 		$('.inscription').addClass('hidden');
 	}

@@ -313,7 +313,7 @@ footer {
  @media screen and (max-width: 649px) {
  	 #map-canvas {
 	 	width: 100%;
-	    height: 600px;
+	    height: 350px;
 	}
 
 	#header nav {
